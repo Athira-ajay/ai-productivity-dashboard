@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>AI Productivity Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>AI PRODUCTIVITY DASHBOARD</h1>
+
+<div class="container">
+
+<button class="dark-btn" onclick="toggleDarkMode()">Dark Mode</button>
+
+<h2>Add Task</h2>
+
+<div class="task-input">
+
+<input type="text" id="taskInput" placeholder="Enter task">
+
+<button class="add-btn" onclick="addTask()">Add</button>
+
+</div>
+
+<h3>Your Tasks</h3>
+
+<ul id="taskList"></ul>
+
+<h2>Pomodoro Timer</h2>
+
+<div class="timer">
+
+<h3 id="time">25:00</h3>
+
+<button class="timer-btn" onclick="startTimer()">Start Timer</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
